@@ -1,6 +1,6 @@
 # node-app-seed
 
-## node app boilerplate:
+## node app boilerplate buzzwords:
 
 * express
 * coffeescript
@@ -11,8 +11,7 @@
 
 ```
 git clone https://github.com/okize/node-app-seed && cd node-app-seed
-npm install
-npm start
+npm install && npm start
 ```
 
-Note: should add .env to ```.gitignore``` file.
+Note: add .env to ```.gitignore``` file after cloning.

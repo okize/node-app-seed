@@ -11,7 +11,7 @@ app = express()
 # configuration
 app.set 'env', process.env.NODE_ENV or 'development'
 app.set 'port', process.env.EXPRESS_PORT or 8000
-app.set 'app name', 'Snapdash'
+app.set 'app name', 'node-app-seed'
 app.set 'views', path.join(__dirname, 'views')
 app.set 'view engine', 'jade'
 
@@ -28,7 +28,8 @@ router = express.Router()
 
 # Initial dummy route for testing
 router.get '/', (req, res) ->
-  res.render 'index.jade'
+  res.render 'index.jade',
+    title: app.get 'app name'
 
 # register routes
 app.use router
