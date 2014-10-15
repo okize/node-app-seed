@@ -1,0 +1,60 @@
+{
+  "name": "node-app-seed",
+  "private": true,
+  "releaseCodename": "",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "engines": {
+    "node": "~0.10.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/gulp/bin/gulp start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okize/node-app-seed"
+  },
+  "author": "Morgan Wigmanich <okize123@gmail.com> (https://github.com/okize)",
+  "homepage": "https://github.com/okize/node-app-seed",
+  "bugs": "https://github.com/okize/node-app-seed/issues",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "compression": "^1.1.1",
+    "express": "^4.9.7",
+    "express-asset-versions": "^0.1.1",
+    "jade": "^1.7.0",
+    "jquery": "^2.1.1",
+    "morgan": "^1.3.2",
+    "pg": "^3.5.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.5.8",
+    "browserify": "^6.1.0",
+    "coffeeify": "^0.7.0",
+    "del": "^0.1.3",
+    "dotenv": "^0.4.0",
+    "gulp": "^3.8.8",
+    "gulp-bg": "0.0.5",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-csslint": "^0.1.5",
+    "gulp-jsonlint": "^0.1.0",
+    "gulp-minify-css": "^0.3.10",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-notify": "^2.0.0",
+    "gulp-open": "^0.3.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.1.0",
+    "gulp-sourcemaps": "^1.2.4",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "node-inspector": "^0.7.4",
+    "pretty-hrtime": "^0.2.2",
+    "run-sequence": "^1.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.0.0"
+  }
+}
